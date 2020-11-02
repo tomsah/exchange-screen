@@ -1,13 +1,12 @@
-# Revolut exchange screen
+# Exchange screen
 ## how to use it
  - run ```npm i```
  - for dev run ```npm run dev``` => it will launch the example app
  - for prod run ``` npm run build```
  
  ## Folder Structure
- This is the folder structure after install
  ```
- base/
+base/
      build-utils/ => all webpack config are living here
          presets/ => webpack presets are living her
              webpack.analyze.js // analyze of the build display in a graph
@@ -21,14 +20,11 @@
          index.html
      src/
          shared/ => code for the app
-             __server_tests__/ => test code for server should be here if needed or removed
              __tests__/ => test files for js files at this folder level
                  utils.js // test code for the utils file
              assets/ => assets folder such as fonts, svg, gif etc...
                  images/ 
              components/ => ui components code
-                 example/ => Ugly dummy app with test to illustrate, TO BE DELETED
-             server/ => code for server should be here if needed or TO BE DELETED
              styles/ => Sass files
              utils.js // Utils functions for the main app
          App.js
